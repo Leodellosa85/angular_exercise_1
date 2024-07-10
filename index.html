@@ -1,0 +1,16 @@
+<form>
+    <label>City name: </label><br>
+    <input type="text" id="cName"><br>
+    <label>Country: </label><br>
+    <input type="text" id="country"><br>
+    <label>Population: </label><br>
+    <input type="number" id="population"><br><br>
+    <button onclick="addCity(document.getElementById('cName').value,document.getElementById('country').value,document.getElementById('population').value)">Add City</button><br><br> 
+    <input  id="input" type="text" id="search">
+    <button type="button" onclick="search(document.getElementById('input').value)">Search</button>   
+    <h1>City List</h1>
+    <div id="cityList"></div>
+  </form>
+
+<script>var exports = {"__esModule": { value: true }}</script>
+<script src="./index.js"></script>
